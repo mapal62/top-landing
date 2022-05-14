@@ -1,0 +1,72 @@
+body {
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dimmed,
+a {
+    font-size: 14px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+#header {
+    padding: 8px 15%;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.title {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    margin: 0;
+}
+
+button {
+    margin: 8px 0;
+    padding: 6px 24px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+}
+
+.headinfo img {
+    max-width: 40%;
+}
