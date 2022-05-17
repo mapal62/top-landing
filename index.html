@@ -8,63 +8,64 @@
 </head>
 
 <body>
-    <div id="header">
-        <div id="navigation">
-            <h2>Header Logo</h2>
-            <ul>
-                <li><a href="#random">random info</a></li>
-                <li><a href="#quote">testimonial</a></li>
-                <li><a href="#signup">sign up</a></li>
+    <div id="hero" class="backdark">
+        <nav class="flex-sp">
+            <p class="text-m textbright">Header Logo</p>
+            <ul class="flex-sp">
+                <li><a class="text-s textdimm" href="#random">random info</a></li>
+                <li><a class="text-s textdimm" href="#quote">testimonial</a></li>
+                <li><a class="text-s textdimm" href="#signup">sign up</a></li>
             </ul>
-        </div>
-        <div class="headinfo">
-            <div class="title">
-                <h1>This website is full of bread</h1>
-                <p class="dimmed">This website has some recipes of different kind of bread.
+        </nav>
+        <div class="headinfo flex-sp">
+            <div>
+                <p class="text-xl textbright">This website is full of bread</p>
+                <p class="text-s textdimm">This website has some recipes of different kind of bread.
                     They are small or big, white or dark - depend on your taste</p>
-                <button>Sign up</button>
+                <button class="backblue textbright text-s">Sign up</button>
             </div>
             <img src="images/bread.jpg" alt="overview" />
         </div>
     </div>
     <main>
-        <h2 id="random">Some random information</h2>
-        <section id="info">
+        <p id="random" class="text-l textdark">Some random information</p>
+        <section id="info" class="flex-sp">
             <div class="card">
                 <img src="images/a-bread.jpg" alt="first info" />
-                <p>this is some subtext under an illustration or image</p>
+                <p class="text-s">this is some subtext under an illustration or image</p>
             </div>
             <div class="card">
                 <img src="images/b-bread.jpg" alt="second info" />
-                <p>this is some subtext under an illustration or image</p>
+                <p class="text-s">this is some subtext under an illustration or image</p>
             </div>
             <div class="card">
                 <img src="images/c-bread.jpg" alt="third info" />
-                <p>this is some subtext under an illustration or image</p>
+                <p class="text-s">this is some subtext under an illustration or image</p>
             </div>
             <div class="card">
                 <img src="images/d-bread.jpg" alt="fourth info" />
-                <p>this is some subtext under an illustration or image</p>
+                <p class="text-s">this is some subtext under an illustration or image</p>
             </div>
 
         </section>
-        <section id="quote">
-            <figure class="quote">
-                <blockquote>This is an inspiring quote or a testimonial from a customer. Maybe it's just filling space
+        <section id="quote" class="backgrey">
+            <figure class="textdark">
+                <blockquote class="text-l">This is an inspiring quote or a testimonial from a customer. Maybe it's just filling
+                    space
                     , or maybe people will acually read it. Who knows? All I know is that looks nice.</blockquote>
-                <figcaption>&ndash; Thor, God of Thunder</figcaption>
+                <figcaption class="text-m">&ndash; Thor, God of Thunder</figcaption>
             </figure>
         </section>
-        <div id="signup">
-            <div class="title">
-                <h3>Call to action! It's time!</h3>
-                <p class="dimmed">Sign up for our product by clicking that button right over there!</p>
+        <div id="signup" class="backblue flex-sp">
+            <div>
+                <p class="text-m textbright">Call to action! It's time!</p>
+                <p class="text-s textdimm">Sign up for our product by clicking that button right over there!</p>
                 </div>
-            <button>Sign up</button>
+            <button class="backblue textbright text-s">Sign up</button>
         </div>
     </main>
-    <footer>
-        <p class="dimmed">Copyright &copy; The Odin Project 2022 - mapal</p>
+    <footer class="backdark textdimm text-s">
+        <p>Copyright &copy; The Odin Project 2022 - mapal</p>
     </footer>
 </body>
 
